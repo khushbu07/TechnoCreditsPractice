@@ -14,8 +14,8 @@ public class MinMaxAvgPrint {
 		int max = a[0];
 
 		for (int i = 0; i < a.length; i++) {
-			if (max > a[i]) {
-              a[i]=max;
+			if ( a[i]>max) {
+              max=a[i];
 			}
 		}
 		System.out.println("Max Number in given Array : "+max);
@@ -25,8 +25,8 @@ public class MinMaxAvgPrint {
 	static void min(int a[]) {
 		int min = a[0];
        for (int i = 0; i < a.length; i++) {
-			if (min < a[i]) {
-              a[i]=min;
+			if (a[i]<min) {
+             min=a[i];
 			}
 		}
 		System.out.println("Min Number in given Array : "+min);
@@ -35,7 +35,13 @@ public class MinMaxAvgPrint {
 		int a[]={2,3,5,6,4};
 		max(a);
 		min(a);
-		
+		for(int i=0;i<a.length;i++){
+			System.out.print(a[i]+" ");
+		}
+		   System.out.println();
+		for(int i=a.length-1;i>=0;i--){
+			System.out.print(a[i]+" ");
+		}
 		
 
 	}
