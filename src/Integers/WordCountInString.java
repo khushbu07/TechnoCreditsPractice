@@ -1,4 +1,4 @@
-package Array;
+package Strings;
 
 public class WordCountInString {
 
