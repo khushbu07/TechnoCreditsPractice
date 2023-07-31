@@ -3,11 +3,33 @@ package Strings;
 public class PalindromeString {
 
 	public static void main(String[] args) {
-		isPalindrome("naman");
-		isPalindrome("Techno");
-		isPalindrome("Naman");
+		// isPalindrome("naman");
+		// isPalindrome("Techno");
+		// isPalindrome("Naman");
+		diffWayRev("namaM");
 	}
 
+	static void diffWayRev(String str) {
+
+		int i = 0;
+		int j = str.length() - 1;
+		boolean flag = true;
+		while (i < j) {
+			if (str.charAt(i) == str.charAt(j)) {
+				i++;
+				j--;
+			} else {
+				flag = false;
+			}
+		}
+		if (flag) {
+			System.out.println(str+" String is palindrome");
+		}
+		else if (!flag){
+			System.out.println(str+" String is not palindrome");
+		}
+	
+	}
 	static void isPalindrome(String str) {
 
 		String rev = "";
