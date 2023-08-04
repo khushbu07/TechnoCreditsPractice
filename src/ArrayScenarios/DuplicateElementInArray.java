@@ -1,4 +1,4 @@
-package ArrayBasic;
+package ArrayScenarios;
 
 import java.util.Arrays;
 
