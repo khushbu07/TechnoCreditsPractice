@@ -1,0 +1,12 @@
+package Assignments;
+
+public class TestSquareClass {
+
+	public static void main(String[] args) {
+
+		Square square = new Square(4);
+		square.findArea();
+
+	}
+
+}
