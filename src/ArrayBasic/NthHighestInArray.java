@@ -26,5 +26,6 @@ public class NthHighestInArray {
 			System.out.print(a[i]+" ");
 		}
 	}
+	
 
 }

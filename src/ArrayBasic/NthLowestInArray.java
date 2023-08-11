@@ -1,6 +1,6 @@
 package ArrayBasic;
 
-public class NthLowestInArray2 {
+public class NthLowestInArray {
 
 	public static void main(String[] args) {
 		int k = 6;

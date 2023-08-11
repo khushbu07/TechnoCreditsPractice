@@ -16,8 +16,8 @@ public class SwapTwoStrings {
 	
 	a=a+b;  //helloworld
 	//b=a.substring(5);
-	b=a.substring(0,(a.length()-b.length()));
-	a=a.substring(b.length());
+	b=a.substring(0,(a.length()-b.length()));//hello
+	a=a.substring(b.length());//start print from 5
 	
 	
 	System.out.println("after Swapping a :"+a);
