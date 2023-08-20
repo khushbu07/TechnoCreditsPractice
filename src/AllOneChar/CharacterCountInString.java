@@ -4,13 +4,14 @@ public class CharacterCountInString {
 
 	public static void main(String[] args) {
 
-		String str = "Monaliiikakk";
+		String str = "Monaliiikakk";  
 		
-		for(int i=0;i<str.length();i++){
+		for(int index=0;index<str.length();index++){
 			int count=0;
-			char ch=str.charAt(i);
+			char ch=str.charAt(index);
+		
 			for(int j=0;j<str.length();j++){
-				if(ch==str.charAt(j)){
+				if(str.charAt(j)==ch){
 					count++;
 				}
 			}
