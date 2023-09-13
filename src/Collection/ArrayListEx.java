@@ -1,3 +1,4 @@
+
 package Collection;
 
 import java.util.ArrayList;
@@ -22,7 +23,7 @@ public class ArrayListEx {
 	static public int printMaxRno(ArrayList<Student> studentInfo) {
 		int maxRnoIndex = 0;
          for (int index = 0; index < studentInfo.size(); index++) {
-          if (studentInfo.get(maxRnoIndex).getStuRno() > maxRnoIndex) {
+          if (studentInfo.get(index).getStuRno()>studentInfo.get(maxRnoIndex).getStuRno()) {
 				maxRnoIndex = index;
 			}
 		}
