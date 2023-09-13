@@ -1,4 +1,4 @@
-package Collection.Assignment41;
+package Collection.POJOAssignment41;
 
 import java.util.ArrayList;
 
