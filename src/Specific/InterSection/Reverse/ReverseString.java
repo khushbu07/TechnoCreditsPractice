@@ -1,4 +1,4 @@
-package Strings;
+package Specific.InterSection.Reverse;
 
 public class ReverseString {
 	

@@ -1,10 +1,14 @@
-package AllOneChar;
+package AllOneChar.WordCount;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class WordCountInStringUsingHashMap {
-
+//	Assignment : 44 [24th Dec'2020]
+//
+//	                 Program 1:
+//	                 Find frequency of each word from the String
+//	                 String str1 = "hello gm hi gm hello pune gn"
 	public static void main(String[] args) {
 
 		String str="hello gm hi gm gm no hello yes hi";
