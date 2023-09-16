@@ -1,4 +1,4 @@
-package ArrayScenarios;
+package Specific.InterSection.InterSection;
 
 public class InterSection {
       

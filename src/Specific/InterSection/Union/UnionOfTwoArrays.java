@@ -1,4 +1,4 @@
-package ArrayScenarios;
+package Specific.InterSection.Union;
 
 public class UnionOfTwoArrays {
 //	Assignment : 36

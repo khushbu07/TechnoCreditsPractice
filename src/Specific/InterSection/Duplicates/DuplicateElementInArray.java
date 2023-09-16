@@ -1,4 +1,4 @@
-package ArrayScenarios;
+package Specific.InterSection.Duplicates;
 
 import java.util.Arrays;
 

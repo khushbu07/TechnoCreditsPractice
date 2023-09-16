@@ -1,4 +1,4 @@
-package Integers;
+package Specific.InterSection.Reverse;
 
 public class ReverseNumber {
 

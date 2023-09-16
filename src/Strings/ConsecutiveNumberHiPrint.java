@@ -1,4 +1,4 @@
-package Integers;
+package Strings;
 
 public class ConsecutiveNumberHiPrint {
 
