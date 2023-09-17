@@ -3,7 +3,7 @@ package Specific.InterSection.Duplicates;
 import java.util.Arrays;
 
 public class DuplicateElementInArray {
-
+	
 	static void duplicateInteger(int a[]) {
 		System.out.print("Duplicate from Int array :");
 		for (int i = 0; i < a.length; i++) {
@@ -48,3 +48,6 @@ public class DuplicateElementInArray {
 
 	}
 }
+
+
+
