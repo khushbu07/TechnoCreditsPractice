@@ -1,17 +1,17 @@
 package Collection.List.LinkedList1;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
-public class FreqOfWordInArrayList {
+public class ConcurrentModificationException {
 
-	static void findFre(List<String> list, String word) {
+	static void findFreUsingEnhanceForloop(List<String> list, String word) {
 		int count = 0;
-		while (list.indexOf(word) != -1) {
-			list.remove(word);
-			count++;
-		}
+		for (String str : list)
+			if (str.equals(word)) {
+				list.remove(word);
+				count++;
+			}
 
 		System.out.println("Freq of " + word + " is : " + count);
 
@@ -27,7 +27,7 @@ public class FreqOfWordInArrayList {
 		list.add("Krishna");
 		list.add("Hello");
 
-		findFre(list, "Hello");
+		findFreUsingEnhanceForloop(list, "Hello");
 
 	}
 

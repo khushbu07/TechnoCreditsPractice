@@ -29,10 +29,11 @@ public class NoSuchElementExceptionInJava {
 		
 		// enhance forloop and iterator both working on top to bottom and notworking on index
 		// diff: iterator fail safe and enhanced for loop fail fast
-		// enhanced for loop me jb hm iteration krte time pr modification krte hto, ye concurrent
+		// enhanced for loop me jb hm iteration krte time pr modification krte h to, ye ConcurrentModificationException deta h
+		//islye iteration pr modification krna ho to iterator use krna chaiye
 		//Iterator me 3 methods : hasNext ,next,remove 
 		//jb readonly mode hi ho sirf print krwana to tb enhance for loop use krna chaiye,
-		//iteration pr modification krna ho to iterator use krna chaiye
+		
 		
 		
 		Iterator<String> itr = list.iterator();
