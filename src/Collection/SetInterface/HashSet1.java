@@ -6,12 +6,16 @@ import java.util.Set;
 public class HashSet1 {
 
 	public static void main(String[] args) {
-
+		
+		//we can iterate set via iterator / enhanced for loop because set does not have any get method
+		
+		//HashSet: Properties: a) It does not allow duplicate values.
+		                     //b) It does not maintain insertion order. 
 		Set<String> set1 = new HashSet<String>();
 		set1.add("maulik");
 		set1.add("krishna");
 		set1.add("Harsh");
-		set1.add("krishna");
+		set1.add("krishna"); // it will not be added
 		
 		
 		System.out.println(set1);

@@ -11,13 +11,19 @@ import org.omg.Messaging.SyncScopeHelper;
 public class ArrayListLinkedListIteration {
 
 	public static void main(String[] args) {
-
+		//Duplicate element + Insertion order : List interface.
 		// LinkedList and ArrayList both are Same,only memory structure wise
 		// they are different.
 		// ArrayList-search operation-complexity o(1),insertion/deletion o(n)
 		// LinkedList-search operation-complexity o(n),insertion/deletion o(1)
-
-		List<String> ar = new ArrayList<String>();
+ 
+		
+		// all the methods of vector class are synchronized
+//		
+//		-> If you have a multi-threaded environment and expecting thread safty then go with Vector.
+//		-> Thread safty is not required, Serach operation is more go with ArrayList else LinkedList.
+		
+		
 
 		List<String> list = new LinkedList<String>();
 		list.add("Techno");

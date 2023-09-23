@@ -1,0 +1,66 @@
+Notes:
+1. HashMap property
+• Key & values
+• Null key & null values
+• Duplicate key not allowed
+• Order does not maintain
+• non-synchronized
+
+2. Hashtable property
+• Key & values
+• null key & null value not allowed
+• Duplicate key not allowed
+• Order does not maintain
+• synchronized
+
+3. TreeMap property
+• key & value
+• duplicates key not allowed
+• natural ordering
+• null key not allowed but null values allowed
+• non-synchronized
+
+4. LinkedHashMap property
+• key & value pair
+• duplicates key not allowed
+• Insertion order maintain
+• Null key & null values
+• non-synchronized
+
+5. ArrayList property
+• Insertion order maintain
+• non-synchronized
+• efficient in searching
+• duplicates allowed
+• null elements allowed
+
+6. LinkedList property
+• Insertion order maintain
+• efficient for adding/deleting operations
+• non-synchronized
+• duplicates allowed
+• null elements allowed
+
+7. Vector property
+• Insertion order maintain
+• Synchronized
+• duplicates allowed
+• null elements allowed
+
+8. TreeSet property
+• Natural Order (ASC)
+• Duplicate not allowed
+• non-synchronized
+• null element not allowed
+
+9. HashSet property
+• Order does not maintain
+• duplicates allowed
+• non-synchronized
+• single null element allowed
+
+10. LinkedHashSet property
+• Insertion order will be maintained
+• duplicates not allowed
+• non-synchronized
+• single null element allowed
