@@ -64,11 +64,17 @@ public class HashMap1 {
 			
 		}
 		
-		System.out.println("===Iterator Using Iterator===============");
+		System.out.println("===Iterate Using Iterator===============");
 		Iterator<Entry<String,Integer>> itr =entry.iterator();
 		while(itr.hasNext()){
 			Entry<String,Integer>e=itr.next();
 			System.out.println(e.getKey()+" : "+e.getValue());
+		}
+		
+		System.out.println("===Iterate using KeySet===============");
+		Set<String> name=map.keySet();
+		for(String v:name){
+			System.out.println(v+":"+map.get(v));
 		}
 		
 	}
