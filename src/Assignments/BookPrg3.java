@@ -1,6 +1,6 @@
 package Assignments;
 
-public class Book {
+public class BookPrg3 {
 
 	// Program - 3:
 	// Create a class Book having Title, Book Publisher, Author with parameterized
@@ -11,7 +11,7 @@ public class Book {
     String publisher;
     String author;
     
-	Book(String title, String publisher, String author) {
+    BookPrg3(String title, String publisher, String author) {
     this.title=title;
     this.publisher=publisher;
     this.author=author;
@@ -21,9 +21,10 @@ public class Book {
 		System.out.println(title+" is the title of the book and publisher of this book is "+publisher+" and author is "+author+".");
 	}
 	public static void main(String[] args) {
-		Book book = new Book("Me","publish-Mona","Monali");
+		BookPrg3 book = new BookPrg3("Me","publish-Mona","Monali");
 		book.display();
 
 	}
 
 }
+

@@ -1,7 +1,8 @@
 Notes:
+//Sorting jaha hoti h...wha null applied nhi hota h : TreeMap/TreeSet  and also legacy class Hashtable :Null key/Null value not allowed
 1. HashMap property
 • Key & values
-• Null key & null values
+• Single Null key & null values
 • Duplicate key not allowed
 • Order does not maintain
 • non-synchronized
@@ -24,7 +25,7 @@ Notes:
 • key & value pair
 • duplicates key not allowed
 • Insertion order maintain
-• Null key & null values
+• Single Null key & null values
 • non-synchronized
 
 5. ArrayList property

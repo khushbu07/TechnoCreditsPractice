@@ -33,6 +33,8 @@ public class HashMap1 {
 //			9 containsValue(key) --> true/false
 //			10 entrySet --> return entry
 		//
+		
+		//we can iterate map via entryset and keySet
 		Map<String, Integer> map = new HashMap<String, Integer>();
 		map.put("Deepa", 1);
 		map.put("payal", 3);

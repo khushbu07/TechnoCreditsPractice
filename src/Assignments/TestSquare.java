@@ -1,6 +1,6 @@
 package Assignments;
 
-public class TestSquareClass {
+public class TestSquare {
 
 	public static void main(String[] args) {
 
