@@ -14,10 +14,10 @@ public class EmployeeDetails implements Comparable<EmployeeDetails> {
 
 	@Override
 	public int compareTo(EmployeeDetails empDetails) {
-		//return (this.salary-empDetails.salary);
-		//return (this.empName-empDetails.empName);
+		return (this.salary-empDetails.salary);
+		//return this.empName.compareTo(empDetails.empName); //String k case me compareTo method use krna pdegi
 		//return (this.empid-empDetails.empid);
-		return -1;
+		
 	}
 	
 	
