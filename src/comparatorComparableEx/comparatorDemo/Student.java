@@ -2,6 +2,9 @@ package comparatorComparableEx.comparatorDemo;
 
 public class Student {
 	
+	
+	//jb multiple attribute pr comparison chaiye hota h to comparator use krna hota h
+	
 	String name;
 	int rno;
 	int standard;
