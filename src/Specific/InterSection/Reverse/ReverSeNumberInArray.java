@@ -33,8 +33,8 @@ public class ReverSeNumberInArray {
 
 	public static void main(String[] args) {
 		int input[] = { 471, 443, 749 };
-		revArray(input);
-		//revUsingArray(input);
+		//revArray(input);
+		revUsingArray(input);
 	}
 	
 

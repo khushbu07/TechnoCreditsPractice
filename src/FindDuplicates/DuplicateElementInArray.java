@@ -1,4 +1,4 @@
-package Specific.InterSection.Duplicates;
+package FindDuplicates;
 
 import java.util.Arrays;
 

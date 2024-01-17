@@ -3,7 +3,7 @@ package Sorting;
 public class LinearSearch {
 
 	public static void main(String[] args) {
-
+       //time complexity : o(n)
 		int a[] = { 12, 14, 50, 40, 23 };
 		int searchKey=45;
 		boolean flag=false;

@@ -1,4 +1,4 @@
-package Specific.InterSection.Duplicates;
+package RemoveDuplicates;
 
 import java.util.ArrayList;
 import java.util.Arrays;

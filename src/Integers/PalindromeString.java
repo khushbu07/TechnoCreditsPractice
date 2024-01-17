@@ -7,6 +7,7 @@ public class PalindromeString {
 		// isPalindrome("Techno");
 		// isPalindrome("Naman");
 		diffWayRev("namaM");
+		//System.out.println(withoutusingthirdvariable("namaM"));
 	}
 
 	static void diffWayRev(String str) {
@@ -46,4 +47,19 @@ public class PalindromeString {
 			System.out.println(str + " is not Palindrome");
 		}
 	}
+	
+	
+	//without using third variable
+			public static boolean withoutusingthirdvariable(String str) {
+			int length=str.length();
+				for(int i=0;i<length/2;i++) {
+					
+					if(str.charAt(i)!=str.charAt(length-1-i)) {
+						return false;
+					}
+				}
+				return true;
+				
+			}
+	
 }
