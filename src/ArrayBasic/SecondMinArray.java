@@ -2,7 +2,7 @@ package ArrayBasic;
 
 //Find second maximum from array without sorting the array.
 
-public class SecondMin {
+public class SecondMinArray {
 
 	public static void main(String[] args) {
 

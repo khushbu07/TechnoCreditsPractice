@@ -10,14 +10,14 @@ public class BinarySearch {
 
 		int a[] = { 1,5,7,9,10,99};
 		boolean flag = false;
-		int key = 70;
+		int key = 9;
 		int l = 0;
 		int h = a.length - 1;
 		while (l <= h) {
 
 			int m = (l + h) / 2;
 			if (a[m] == key) {
-				System.out.println("Element found");
+				System.out.println("Element found at index "+m);
 				flag = true;
 				break;
 			}
