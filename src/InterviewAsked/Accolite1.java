@@ -2,6 +2,7 @@ package InterviewAsked;
 
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
@@ -14,7 +15,7 @@ public class Accolite1 {
 		//String str = "HeHloWorld";
 		char[] ch=str.toCharArray();
 		
-		Map<Character,Integer> map=new HashMap<Character,Integer>();
+		Map<Character,Integer> map=new LinkedHashMap<Character,Integer>();
 		for(char c:ch) {
 			if(map.containsKey(c)){
 				map.put(c, map.get(c)+1);
@@ -27,15 +28,17 @@ public class Accolite1 {
 		System.out.println(map);
 		
 		int index = 0;
+		char exp=0;
         for (int i = 0; i < str.length(); i++) {
             char c = str.charAt(i);
             if (map.get(c) == 1) {
                 index = i;
+                exp=c;
                 break;
             }
         }
 
-        System.out.println("The index of the first non-repeating character is: " + index);
+        System.out.println("The index of the first non-repeating character is: " + exp+ " : "+ index);
     }
 
 }
