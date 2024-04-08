@@ -24,7 +24,7 @@ public class CharCountUsingHashMap {
 			}
 		}
 		
-		System.out.println(map);
+		//System.out.println(map);
 
 		
 		Set<Entry<Character,Integer>>entry1=map.entrySet();

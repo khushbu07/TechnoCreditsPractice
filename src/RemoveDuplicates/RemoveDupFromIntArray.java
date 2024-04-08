@@ -17,7 +17,7 @@ public class RemoveDupFromIntArray {
 			 set.add(input[i]);
 		 }
 		 
-		Iterator<Integer>itr=set.iterator();
+		Iterator<Integer> itr=set.iterator();
 		while(itr.hasNext()) {
 			int value=itr.next();
 			System.out.print(value+" ");
