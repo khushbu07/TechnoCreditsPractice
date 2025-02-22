@@ -15,7 +15,8 @@ public class RemoveDuplicatesFromArrayList {
 		Set<Integer> output = new HashSet<Integer>(nums);
 		List<Integer> newArray = new ArrayList<>(output);
 		System.out.println(output);
-		//System.out.println(newArray);
+		System.out.println(newArray);
+		
 		
 		
 	}

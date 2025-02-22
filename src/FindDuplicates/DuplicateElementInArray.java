@@ -26,7 +26,7 @@ public class DuplicateElementInArray {
 		for (int i = 0; i < a.length; i++) {
 			for (int j = 0; j < a.length; j++) {
 				if (a[i].equals(a[j])) {
-					if (i < j) {
+					if (i < j) { //1
 						System.out.print( a[i] + " ");
 						break;
 					} else if (i > j)
@@ -42,7 +42,7 @@ public class DuplicateElementInArray {
 		int a[] = { 0, 3, 1, 2, 3, 3, 4, 0, 6, 2 };
 		System.out.println("Integer Array "+Arrays.toString(a));
 		duplicateInteger(a);
-		String b[] = { "techno", "Hi", "Hello", "Hi", "gm", "gm" };
+		String b[] = { "techno", "Hi", "Hello", "Hi", "gm", "gm" };//i=3,j=1
 		System.out.println("\nString araay "+Arrays.toString(b));
 		duplicateString(b);
 
