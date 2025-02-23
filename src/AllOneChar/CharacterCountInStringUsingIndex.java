@@ -1,4 +1,4 @@
-package AllOneChar;
+ package AllOneChar;
 
 public class CharacterCountInStringUsingIndex {
 
@@ -9,8 +9,8 @@ public class CharacterCountInStringUsingIndex {
 
 		for (int i = 0; i < str.length(); i++) {
 			int count = 0;
-			char ch = str.charAt(i);
-			if (str.indexOf(ch) == i) {
+			char ch = str.charAt(i);//M
+			if (str.indexOf(ch) == i) {//1
 				
 			for (int j = 0; j < str.length(); j++) {
 

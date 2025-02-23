@@ -21,7 +21,7 @@ public class SumOfNumbersInString {
 
 			else if (Character.isLetter(ch)) {
 				if (temp.length() > 0) {
-					sum = sum + Integer.parseInt(temp);
+					sum = sum + Integer.parseInt(temp);//0+
 					temp = "";
 
 				}
