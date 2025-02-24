@@ -1,4 +1,4 @@
-package CustomException;
+ package CustomException;
 
 public class AgeNotException extends RuntimeException {
 	
