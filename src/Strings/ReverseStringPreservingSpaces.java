@@ -6,7 +6,7 @@ public class ReverseStringPreservingSpaces {
 		
 		String str="I Am Not String";
 		
-		//"gni rtS toNmAI"
+		//g ni rtS toNmAI
 		
 		String res=reverseStringPreservingSpaces(str);
 		System.out.println(res);
