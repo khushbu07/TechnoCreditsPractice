@@ -2,6 +2,7 @@ package Specific.InterSection.Union;
 
 import java.util.LinkedHashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class UnionOfTwoArrays {
 //	Assignment : 36
@@ -32,7 +33,7 @@ public class UnionOfTwoArrays {
 	
 	public static Object[] union(int a[],int b[]) {
 		
-		Set<Integer> set =new LinkedHashSet<Integer>();
+		Set<Integer> set =new TreeSet<Integer>();
 		for(int a1:a) {
 			set.add(a1);
 		}
