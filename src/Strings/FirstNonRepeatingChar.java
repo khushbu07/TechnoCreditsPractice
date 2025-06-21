@@ -8,8 +8,10 @@ import java.util.Set;
 public class FirstNonRepeatingChar {
 
 	public static void main(String[] args) {
-		String str = "Swisswo";
+		String str = "JJavaconncetootea";
 		System.out.println(nonrepeat( str));
+		
+		System.out.println(firstRepeatChar( str));
 	}
 
 	public static char nonrepeat(String str) {
@@ -33,5 +35,23 @@ public class FirstNonRepeatingChar {
             
 		
 		 return '\0';
+	}
+	
+	
+	public static char firstRepeatChar(String str) {
+		Map<Character, Integer> map = new LinkedHashMap<Character, Integer>();
+
+		for (int i = 0; i < str.length(); i++) {
+			char ch = str.charAt(i);
+			if(map.containsKey(ch)) {
+				return ch;
+			}
+			else {
+				map.put(ch, 1);
+			}
+
+		}
+		
+		return '\0';
 	}
 }

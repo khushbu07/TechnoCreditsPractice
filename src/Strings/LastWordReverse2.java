@@ -10,7 +10,7 @@ public class LastWordReverse2 {
 		String reversedLastWord=new StringBuilder(lastWord).reverse().toString();
 		
 		words[words.length-1]=reversedLastWord;
-	   System.out.println(String.join(" ",words));
+	    System.out.println(String.join(" ",words));
 		
 
 	

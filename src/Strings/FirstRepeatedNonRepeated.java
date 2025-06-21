@@ -1,10 +1,14 @@
+package Strings;
+
+
 import java.util.LinkedHashMap;
 import java.util.Map;
 //18.Find the First Repeated and Non-Repeated Character   - 
 //Example: Input: `"JavaConceptOfTheDay"`,
 //Output: `First repeated: 'a', First non-repeated: 'J'` 
-public class FirstRepeatedNonRepeated {
 
+public class FirstRepeatedNonRepeated {
+	
 	public static void main(String[] args) {
 
 		String str = "JavaConceptOfTheDay";
@@ -44,4 +48,5 @@ public class FirstRepeatedNonRepeated {
 		}
 		return '\0';
 	}
+
 }
