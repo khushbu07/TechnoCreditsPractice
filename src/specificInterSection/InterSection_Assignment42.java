@@ -1,4 +1,4 @@
-package Specific.InterSection.InterSection;
+package specificInterSection;
 
 import java.util.ArrayList;
 

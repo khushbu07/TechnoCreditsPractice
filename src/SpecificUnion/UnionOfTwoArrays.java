@@ -1,4 +1,4 @@
-package Specific.InterSection.Union;
+package SpecificUnion;
 
 import java.util.LinkedHashSet;
 import java.util.Set;

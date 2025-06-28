@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-public class RemoveDupFromIntArray {
+public class RemoveDupFromIntArrayUsingSet {
 
 	public static void main(String[] args) {
 		 int input[] = {2,3,6,5,8,2,3};
