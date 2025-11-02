@@ -7,8 +7,7 @@ import java.util.Set;
 public class DuplicateCharacter {
 	
 	public static void main(String[] args) {
-
-		dupli("testingtg");
+				dupli("testingtg");
 
 	}
 

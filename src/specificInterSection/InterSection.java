@@ -1,4 +1,4 @@
-package Specific.InterSection.InterSection;
+package specificInterSection;
 
 public class InterSection {
       

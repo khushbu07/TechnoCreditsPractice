@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Map.Entry;
 
-public class RemoveAllDuplicate {
+public class RemoveAllDuplicateUsingMap {
 	
 	  public static void main(String[] args) {
 	        String s= "Monalika";

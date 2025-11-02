@@ -1,4 +1,4 @@
-package Specific.InterSection.Reverse;
+package specificReverse;
 
 import java.util.Arrays;
 

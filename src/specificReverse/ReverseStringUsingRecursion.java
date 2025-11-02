@@ -1,4 +1,4 @@
-package Specific.InterSection.Reverse;
+package specificReverse;
 
 public class ReverseStringUsingRecursion {
 
